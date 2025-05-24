@@ -1,39 +1,67 @@
-# 🚀 My Portfolio Website
+# MERN Portfolio 2.0
 
-![image](https://github.com/user-attachments/assets/ade45c4b-b2cb-46cb-b8a6-31cad3bd0c5a)
+This README provides instructions on how to set up and run the MERN Portfolio 2.0 website locally.
 
-[Checkout the initial design here](https://www.figma.com/design/56hODoGFDzZfZduBPfQeBg/New-Portfolio?node-id=18-1550&t=73vRMGTW0gspTSND-1)
+## Prerequisites
 
-## 🚨 Forking this repo (please read!)
+Ensure you have the following installed on your system:
 
-Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
+-   [Node.js](https://nodejs.org/) (LTS version recommended)
+-   [Git](https://git-scm.com/)
 
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
+## Installation
 
-Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Next.js docs](https://nextjs.org/docs).
+1. Clone the repository:
 
-If you like my work, give it a star⭐.
+    ```bash
+    git clone https://github.com/your-username/mern-portfolio-2.0.git
+    cd mern-portfolio-2.0
+    ```
 
-### TL;DR
+2. Install dependencies for both the client and server:
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [me.toinfinite.dev](https://www.me.toinfinite.dev/). Thanks!
+    ```bash
+    # Navigate to the server directory
+    cd server
+    npm install
 
-## 🛠 Installation & Set Up
+    # Navigate to the client directory
+    cd ../client
+    npm install
+    ```
 
-First, run the development server:
+## Running the Application
 
-```bash
-pnpm install
-pnpm dev
-```
+1. Start the server:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    ```bash
+    cd server
+    npm start
+    ```
 
-## 🤝 Contributing
-If you'd like to contribute or suggest improvements, feel free to open an issue or submit a pull request. All contributions are welcome!
+2. Start the client:
 
-## Credit
-_This readme is inspired from [Brittany Chiang's github](https://github.com/bchiang7/v4)_
+    ```bash
+    cd ../client
+    npm start
+    ```
 
-## 📄 License
-This project is open source and available under the [MIT License](https://github.com/Tajmirul/portfolio-2.0/blob/main/LICENSE).
+3. Open your browser and navigate to `http://localhost:3000`.
+
+## Scripts
+
+-   **Server**
+
+    -   `npm start`: Starts the server.
+    -   `npm run dev`: Starts the server in development mode with hot reloading.
+
+-   **Client**
+    -   `npm start`: Starts the React development server.
+
+## Contributing
+
+Feel free to submit issues or pull requests to improve this project.
+
+## Contact
+
+For any inquiries, reach out to [manasvisrivastava26@gmail.com].
